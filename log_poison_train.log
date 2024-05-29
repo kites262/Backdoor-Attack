@@ -1,0 +1,31 @@
+(base) PS Q:\projects\Backdoor-Attack-Against-Split-Neural-Network-Based-Vertical-Federated-Learning> C:/Users/xuan/anaconda3/Scripts/activate
+(base) PS Q:\projects\Backdoor-Attack-Against-Split-Neural-Network-Based-Vertical-Federated-Learning> conda activate ml
+(ml) PS Q:\projects\Backdoor-Attack-Against-Split-Neural-Network-Based-Vertical-Federated-Learning> python poison_train.py --label 0 --dup 0 --magnification 6 --multies 4 --unit 0.25 --clean-epoch 80
+Files already downloaded and verified
+Files already downloaded and verified
+clean image used for class 0: 300
+0.47328942549647135
+Epoch 80, loss = 0.4712, acc = 0.8371 (32.3559s)
+Epoch 81, loss = 0.4692, acc = 0.8373 (31.1512s)
+Epoch 82, loss = 0.4697, acc = 0.8357 (30.5079s)
+Epoch 83, loss = 0.4700, acc = 0.8339 (29.6252s)
+Epoch 84, loss = 0.4582, acc = 0.8414 (30.3087s)
+Epoch 85, loss = 0.4570, acc = 0.8396 (31.5370s)
+Epoch 86, loss = 0.4545, acc = 0.8414 (30.7494s)
+Epoch 87, loss = 0.4512, acc = 0.8431 (31.8438s)
+Epoch 88, loss = 0.4522, acc = 0.8404 (30.5471s)
+Epoch 89, loss = 0.4623, acc = 0.8386 (31.6033s)
+0.5520158606746345
+Epoch 90, loss = 0.4594, acc = 0.8388 (32.3162s)
+Epoch 91, loss = 0.4501, acc = 0.8413 (31.6589s)
+Epoch 92, loss = 0.4476, acc = 0.8444 (31.5817s)
+Epoch 93, loss = 0.4459, acc = 0.8449 (30.0601s)
+Epoch 94, loss = 0.4470, acc = 0.8436 (29.8672s)
+Epoch 95, loss = 0.4540, acc = 0.8411 (30.3583s)
+Epoch 96, loss = 0.4426, acc = 0.8446 (29.8338s)
+Epoch 97, loss = 0.4406, acc = 0.8464 (29.9063s)
+Epoch 98, loss = 0.4430, acc = 0.8434 (29.9148s)
+Epoch 99, loss = 0.4377, acc = 0.8488 (29.9449s)
+clean acc: 0.8369
+target label: 0, attack acc: 0.4217
+Training a model costs 620.8829s.
